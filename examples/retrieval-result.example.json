@@ -1,0 +1,20 @@
+{
+  "query": "What was previously decided about the demo workflow?",
+  "principal": "actor/demo-resident",
+  "results": [
+    {
+      "recordId": "arc_demo_001",
+      "score": 0.91,
+      "text": "Synthetic example content for a public portfolio repository.",
+      "provenance": {
+        "sourceType": "home_message_ledger",
+        "sourceRecordId": "msg_demo_001",
+        "isDerived": false
+      },
+      "authorization": {
+        "actorScope": "actor/demo-resident",
+        "authorized": true
+      }
+    }
+  ]
+}
