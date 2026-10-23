@@ -1,0 +1,21 @@
+{
+  "recordId": "arc_demo_001",
+  "source": {
+    "type": "home_message_ledger",
+    "sourceRecordId": "msg_demo_001"
+  },
+  "scope": {
+    "conversationId": "conv_demo_001",
+    "actors": ["actor/demo-resident"],
+    "visibility": "private"
+  },
+  "content": {
+    "kind": "message",
+    "text": "Synthetic example content for a public portfolio repository."
+  },
+  "provenance": {
+    "ingestedAt": "YYYY-MM-DDTHH:MM:SSZ",
+    "transform": "canonical-normalization-v1",
+    "isDerived": false
+  }
+}
